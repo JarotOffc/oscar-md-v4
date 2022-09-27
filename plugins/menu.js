@@ -1,5 +1,5 @@
 // MADE BY BOCHILGAMING
-// RECODE BY ZUKASHIKA 
+// RECODE BY Jarot
 
 import { promises } from 'fs'
 import { join } from 'path'
