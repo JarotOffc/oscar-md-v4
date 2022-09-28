@@ -1,7 +1,7 @@
 {
     "name": "Oscar-BOT",
-    "version": "3.0.0",
-    "description": "RPG BOT Whatsapp",
+    "version": "4.5.8",
+    "description": "BOT Whatsapp",
     "main": "index.js",
     "type": "module",
     "directories": {
