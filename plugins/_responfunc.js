@@ -22,15 +22,15 @@ export async function all(m) {
     //Responder
     if (m.isGroup) {
       if (m.mentionedJid.includes(this.user.jid)) {
-        await this.sendButton(m.chat, isBanned ? "Grup Ini Diban Oleh owner" : banned ? "Anda telah dibanned" : "Bot Status: Online", author, null, [[isBanned ? 'Unban' : banned ? 'Pemilik Bot' : 'Menu',
+        await this.sendButton(m.chat, banned ? "Grup Ini Diban Oleh owner" : banned ? "Anda telah dibanned" : "Bot Status: Online", author, null, [[isBanned ? 'Unban' : banned ? 'Pemilik Bot' : 'Menu',
             isBanned ? '.unban' : banned ? '.owner' : '.menu'
                 ]], m)
       }
     }
     //Kontak
     global.kontak2 = [
-         [owner[0], await this.getName(owner[0] + '@s.whatsapp.net'), 'ɪᴍʏᴀɴxɪᴀᴏ', 'yanxiao021@gmail.com', true],
-         [owner[1], await this.getName(owner[1] + '@s.whatsapp.net'), 'ɪᴍʏᴀɴxɪᴀᴏ', 'yanxiao021@gmail.com', true], // Kalo mau di tambah tinggal copy 1baris ini di tempel di bawahnya trs di edit dikit!
+         [owner[0], await this.getName(owner[0] + '@s.whatsapp.net'), 'Jarot', 'jancok@gmail.com', true],
+         [owner[1], await this.getName(owner[1] + '@s.whatsapp.net'), 'Jarot', 'jancok@gmail.com', true], // Kalo mau di tambah tinggal copy 1baris ini di tempel di bawahnya trs di edit dikit!
         ]
         //Ucapan
         global.ucapan = ucapan()
