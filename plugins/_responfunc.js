@@ -22,7 +22,7 @@ export async function all(m) {
     //Responder
     if (m.isGroup) {
       if (m.mentionedJid.includes(this.user.jid)) {
-        await this.sendButton(m.chat, isBanned ? "Grup Ini Diban Oleh owner" : banned ? "Anda telah dibanned" : "Bot Status: Online", author, null, [[isBanned ? 'Unban' : banned ? 'Pemilik Bot' : 'Menu',
+        await this.sendButton(m.chat, banned ? "Grup Ini Diban Oleh owner" : banned ? "Anda telah dibanned" : "Bot Status: Online", author, null, [[isBanned ? 'Unban' : banned ? 'Pemilik Bot' : 'Menu',
             isBanned ? '.unban' : banned ? '.owner' : '.menu'
                 ]], m)
       }
