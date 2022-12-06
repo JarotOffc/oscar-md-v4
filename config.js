@@ -47,29 +47,29 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 /*============== SOCIAL ==============*/
 
 // kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
-global.sig = 'https://instagram.com/Jarotr_' //Link Instagrammu
-global.sgh = 'https://github.com/Alpiii22' //Link Githubmu
-global.sgc = 'https://chat.whatsapp.com/GPMdyM0uDMP789G3IGMHda'
+global.sig = '-' //Link Instagrammu
+global.sgh = '-' //Link Githubmu
+global.sgc = '-'
 global.sdc = '_'
-global.stg = 'https://instagram.com/Jarotr_'
-global.syt = 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ' //Isi Pake Link Discordmu Kalo Gada Biarin aja
-global.snh = 'https://nhentai.net/g/HaramTod🗿' //Hmmm, Ini boleh kalian isi terserah :v
+global.stg = '-'
+global.syt = '-' //Isi Pake Link Discordmu Kalo Gada Biarin aja
+global.snh = '-' //Hmmm, Ini boleh kalian isi terserah :v
 
 /*============== PAYMENT ==============*/
-global.pdana = '085850539404' //Nomor Danamu
-global.ppulsa = '085850539404' //Nomor SimCard Yang Kamu Pake
-global.psaweria = 'https://saweria.com/jarotoffc' //Link Saweriamu Kalo Nggada Ketik - aja
+global.pdana = '0895412779117' //Nomor Danamu
+global.ppulsa = '0895412779117' //Nomor SimCard Yang Kamu Pake
+global.psaweria = '-' //Link Saweriamu Kalo Nggada Ketik - aja
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6281376349712' //Nomor Bot
-global.nomorown = '6285850539404' //Nomor Owner
-global.namebot = 'OSCAR-MULTIDEVICE'  //Nama Bot
-global.nameown = 'Oscar Offc'  // Nama Owner
+global.nomorbot = '0895412779117' //Nomor Bot
+global.nomorown = '0895412779117' //Nomor Owner
+global.namebot = 'OptimumPred'  //Nama Bot
+global.nameown = 'rezaaaa'  // Nama Owner
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6285850539404', '❦ Oscar 🎐', true] //Ganti jd nomormu sama Namamu
+  ['0895412779117', 'rezaaaa', true] //Ganti jd nomormu sama Namamu
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -101,9 +101,9 @@ global.APIKeys = { // APIKey Here
 // Kata APIKEY itu isi dengan apikey lu sendiri, dengan beli ke website itu
 
 /*============== WATERMARK ==============*/
-global.wm = '                「 OSCAR-MULTIDEVICE 汉  」' //Main Watermark
-global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘Oscar-Md˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
-global.wm3 = '⫹⫺  OSCAR-MD'
+global.wm = '                「 OptimumPred 汉  」' //Main Watermark
+global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘OptimumPred˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
+global.wm3 = '⫹⫺  OptimumPred'
 global.botdate = `⫹⫺ 𝗛𝗮𝗿𝗶: ${week} ${date}`
 global.bottime = `𝗪𝗮𝗸𝘁𝘂 : ${wktuwib}`
 global.titlebot = '🎋 ┊ 𝗥𝗣𝗚 ʙᴏᴛ ᴡʜᴀᴛsᴀᴘᴘ'
